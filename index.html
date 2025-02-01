@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, tr, td
+        {
+            border:2px black solid;
+            border-collapse: collapse;
+            padding:5px;
+        }
+        .err
+        {
+            color:red;
+        }
+        .correct
+        {
+            background-color: green;
+        }
+        .incorrect
+        {
+            background-color: red;
+        }
+        .partial
+        {
+            background-color: yellow;
+        }
+        .footer
+        {
+            position:absolute;
+            bottom: 0;
+            background-color: black;
+            left: 0;
+            width:100%;
+            margin:0;
+            padding:5px;
+        }
+    </style>
+
+    <head>
+        <title>EVE Wordle</title>
+    </head>
+
+    <body>
+        <form onsubmit="onSubmit(); return false;">
+            <input type="text" name="shipInput" id="shipInput">
+            <button type="submit" id="submit">Go!</button>
+        </form>
+
+        <br><br>
+
+        <p class="err" id="err">Input is not ship name</p>
+
+        <table id="table">
+            <tr id="headerRow">
+                <th>Ship Name</th>
+                <th>Faction</th>
+                <th>Hull Type</th>
+                <th>Role</th>
+                <th>Tank</th>
+                <th>Weapons</th>
+                <th>Ewar Type</th>
+            </tr>
+        </table>
+
+        <div class="footer">
+            <p style="color:white">Made by SuahSwag24</p>
+        </div>
+
+    </body>
+
+    <script src="src.js"></script>
+
+</html>
