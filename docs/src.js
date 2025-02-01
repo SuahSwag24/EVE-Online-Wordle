@@ -5,8 +5,12 @@ var named = [];
 let selectedShip = [];
 const attributes = ["Ship", "Faction", "Hull", "Role", "Tank", "Weapons", "Ewar Type"];
 const verdict = {correct: "correct", incorrect: "incorrect", partial: "partial"};
+const maxAttempts = 6;
+let currAttempts = 0;
+let currAttemptsDisplay = document.getElementById("currAttemptsDisplay"), maxAttemptsDisplay = document.getElementById("maxAttemptsDisplay");
 
 errMsg.style.display = "none";
+maxAttemptsDisplay.innerHTML = maxAttempts, currAttemptsDisplay.innerHTML = currAttempts;
 
 fetch('ships.json')
     .then(response => response.json())
@@ -46,6 +50,17 @@ function onSubmit()
         InsertTable();
 
         named.push(shipMatch.Ship);
+        currAttempts++;
+        currAttemptsDisplay.innerHTML = currAttempts;
+    
+        if(currAttempts >= maxAttempts)
+        {
+            setTimeout(() =>
+                {
+                    alert("Maximum guesses reached! The answer was: " + selectedShip.Ship);
+                    location.reload();
+                }, 10)
+        }
     }
     else if(renamed)
     {
