@@ -17,13 +17,10 @@ fetch('ships.json')
     .then(data => 
         {
             shipData = data;
-            console.log(shipData);
 
             let r = Math.floor(Math.random() * shipData.length  ) + 1;
-            console.log(r);
 
             selectedShip = shipData.find(s => s.ShipID == r);
-            console.log(selectedShip);
         })
     .catch(error => console.error('E'));
 

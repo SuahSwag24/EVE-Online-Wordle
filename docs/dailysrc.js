@@ -17,12 +17,10 @@ fetch('ships.json')
     .then(data => 
         {
             shipData = data;
-            console.log(shipData);
 
             let r = getDailyRandomNumber();
 
             selectedShip = shipData.find(s => s.ShipID == r);
-            console.log(selectedShip);
         })
     .catch(error => console.error('E'));
 
