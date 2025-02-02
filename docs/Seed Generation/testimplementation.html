@@ -1,0 +1,38 @@
+<html>
+    <body>
+        <script>
+            let seed = 829548792;
+
+            function seededRandom(seed) 
+            {
+                let x = Math.sin(seed) * 10000;
+                return x - Math.floor(x);
+            }
+
+            function getDailyRandomNumber() 
+            {
+                let now = new Date();
+                let utcHours = now.getUTCHours();
+                
+                // If it's before 11 AM UTC, use the previous day's date
+                if (utcHours < 11) {
+                    now.setUTCDate(now.getUTCDate() - 1);
+                }
+
+                let year = now.getUTCFullYear();
+                let month = now.getUTCMonth() + 1; // Months are zero-based in JS
+                let day = now.getUTCDate();
+
+                // Use the adjusted date as the seed (YYYYMMDD)
+                let seed = parseInt(`${year}${month.toString().padStart(2, '0')}${day.toString().padStart(2, '0')}`);
+
+                // Generate a random number using the seed
+                let randomNumber = Math.floor(seededRandom(seed) * 52) + 1; // Random number between 1-100
+
+                return randomNumber;
+            }
+
+            console.log(getDailyRandomNumber());
+        </script>
+    </body>
+</html>

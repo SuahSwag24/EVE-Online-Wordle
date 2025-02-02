@@ -1,0 +1,25 @@
+<html>
+    <script>
+        function GenerateSeed()
+        {
+            return Math.floor(Math.random() * 1000000000);
+        }
+
+        function simpleHash(str) 
+        {
+            let hash = 0;
+            for (let i = 0; i < str.length; i++) 
+            {
+                hash = (hash << 5) - hash + str.charCodeAt(i);
+                hash |= 0; // Convert to 32-bit integer
+            }
+            return Math.abs(hash).toString(16);
+        }
+
+        let unhashedSeed = GenerateSeed();
+        let hashedSeed = simpleHash(unhashedSeed.toString());
+
+        console.log("Unhashed Seed:", unhashedSeed);
+        console.log("Hashed Seed:", hashedSeed);
+    </script>
+</html>

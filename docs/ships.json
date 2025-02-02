@@ -1,272 +1,522 @@
 [
-    {
-      "ShipID": 1,
-      "Ship": "Impairor",
-      "Faction": "Amarr",
-      "Hull": "Corvette",
-      "Role": "Combat",
-      "Tank": "Armor",
-      "Weapons": "Energy",
-      "Ewar Type": "Tracking Disruption"
-    },
-    {
-      "ShipID": 2,
-      "Ship": "Punisher",
-      "Faction": "Amarr",
-      "Hull": "Frigate",
-      "Role": "Combat",
-      "Tank": "Armor",
-      "Weapons": "Energy",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 3,
-      "Ship": "Tormentor",
-      "Faction": "Amarr",
-      "Hull": "Frigate",
-      "Role": "Combat",
-      "Tank": "Armor",
-      "Weapons": "Energy",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 4,
-      "Ship": "Crucifier",
-      "Faction": "Amarr",
-      "Hull": "Frigate",
-      "Role": "Electronic Warfare",
-      "Tank": "Armor",
-      "Weapons": "None",
-      "Ewar Type": "Tracking Disruption"
-    },
-    {
-      "ShipID": 5,
-      "Ship": "Magnate",
-      "Faction": "Amarr",
-      "Hull": "Frigate",
-      "Role": "Exploration",
-      "Tank": "Armor",
-      "Weapons": "None",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 6,
-      "Ship": "Inquisitor",
-      "Faction": "Amarr",
-      "Hull": "Frigate",
-      "Role": "Logistics",
-      "Tank": "Armor",
-      "Weapons": "None",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 7,
-      "Ship": "Executioner",
-      "Faction": "Amarr",
-      "Hull": "Frigate",
-      "Role": "Attack/Tackle",
-      "Tank": "Armor",
-      "Weapons": "Energy",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 8,
-      "Ship": "Coercer",
-      "Faction": "Amarr",
-      "Hull": "Destroyer",
-      "Role": "Combat",
-      "Tank": "Armor",
-      "Weapons": "Energy",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 9,
-      "Ship": "Dragoon",
-      "Faction": "Amarr",
-      "Hull": "Destroyer",
-      "Role": "Capacitor Warfare",
-      "Tank": "Armor",
-      "Weapons": "Drones",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 10,
-      "Ship": "Ibis",
-      "Faction": "Caldari",
-      "Hull": "Corvette",
-      "Role": "Combat",
-      "Tank": "Shield",
-      "Weapons": "Hybrid",
-      "Ewar Type": "ECM"
-    },
-    {
-      "ShipID": 11,
-      "Ship": "Bantam",
-      "Faction": "Caldari",
-      "Hull": "Frigate",
-      "Role": "Logistics",
-      "Tank": "Shield",
-      "Weapons": "None",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 12,
-      "Ship": "Condor",
-      "Faction": "Caldari",
-      "Hull": "Frigate",
-      "Role": "Attack/Tackle",
-      "Tank": "Shield",
-      "Weapons": "Light Missile/Rocket",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 13,
-      "Ship": "Griffin",
-      "Faction": "Caldari",
-      "Hull": "Frigate",
-      "Role": "Electronic Warfare",
-      "Tank": "Shield",
-      "Weapons": "None",
-      "Ewar Type": "ECM"
-    },
-    {
-      "ShipID": 14,
-      "Ship": "Heron",
-      "Faction": "Caldari",
-      "Hull": "Frigate",
-      "Role": "Exploration",
-      "Tank": "Shield",
-      "Weapons": "None",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 15,
-      "Ship": "Kestrel",
-      "Faction": "Caldari",
-      "Hull": "Frigate",
-      "Role": "Combat",
-      "Tank": "Shield",
-      "Weapons": "Light Missile/Rocket",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 16,
-      "Ship": "Merlin",
-      "Faction": "Caldari",
-      "Hull": "Frigate",
-      "Role": "Combat",
-      "Tank": "Shield",
-      "Weapons": "Hybrid",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 17,
-      "Ship": "Corax",
-      "Faction": "Caldari",
-      "Hull": "Destroyer",
-      "Role": "Combat",
-      "Tank": "Shield",
-      "Weapons": "Light Missile/Rocket",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 18,
-      "Ship": "Cormorant",
-      "Faction": "Caldari",
-      "Hull": "Destroyer",
-      "Role": "Combat",
-      "Tank": "Shield",
-      "Weapons": "Hybrid",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 19,
-      "Ship": "Velator",
-      "Faction": "Gallente",
-      "Hull": "Corvette",
-      "Role": "Combat",
-      "Tank": "Armor",
-      "Weapons": "Hybrid",
-      "Ewar Type": "Sensor Dampening"
-    },
-    {
-      "ShipID": 20,
-      "Ship": "Atron",
-      "Faction": "Gallente",
-      "Hull": "Frigate",
-      "Role": "Attack/Tackle",
-      "Tank": "Armor",
-      "Weapons": "Hybrid",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 21,
-      "Ship": "Imicus",
-      "Faction": "Gallente",
-      "Hull": "Frigate",
-      "Role": "Exploration",
-      "Tank": "Armor",
-      "Weapons": "None",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 22,
-      "Ship": "Incursus",
-      "Faction": "Gallente",
-      "Hull": "Frigate",
-      "Role": "Combat",
-      "Tank": "Armor",
-      "Weapons": "Hybrid",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 23,
-      "Ship": "Maulus",
-      "Faction": "Gallente",
-      "Hull": "Frigate",
-      "Role": "Electronic Warfare",
-      "Tank": "Armor",
-      "Weapons": "None",
-      "Ewar Type": "Sensor Dampening"
-    },
-    {
-      "ShipID": 24,
-      "Ship": "Navitas",
-      "Faction": "Gallente",
-      "Hull": "Frigate",
-      "Role": "Logistics",
-      "Tank": "Armor",
-      "Weapons": "None",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 25,
-      "Ship": "Tristan",
-      "Faction": "Gallente",
-      "Hull": "Frigate",
-      "Role": "Combat",
-      "Tank": "Armor",
-      "Weapons": "Drones",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 26,
-      "Ship": "Algos",
-      "Faction": "Gallente",
-      "Hull": "Destroyer",
-      "Role": "Combat",
-      "Tank": "Armor",
-      "Weapons": "Drones",
-      "Ewar Type": "None"
-    },
-    {
-      "ShipID": 27,
-      "Ship": "Catalyst",
-      "Faction": "Gallente",
-      "Hull": "Destroyer",
-      "Role": "Combat",
-      "Tank": "Armor",
-      "Weapons": "Hybrid",
-      "Ewar Type": "None"
-    }
-  ]
+  {
+    "ShipID": 1,
+    "Ship": "Impairor",
+    "Faction": "Amarr",
+    "Hull": "Corvette",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Energy",
+    "Ewar Type": "Tracking Disruption"
+  },
+  {
+    "ShipID": 2,
+    "Ship": "Punisher",
+    "Faction": "Amarr",
+    "Hull": "Frigate",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Energy",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 3,
+    "Ship": "Tormentor",
+    "Faction": "Amarr",
+    "Hull": "Frigate",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Energy",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 4,
+    "Ship": "Crucifier",
+    "Faction": "Amarr",
+    "Hull": "Frigate",
+    "Role": "Electronic Warfare",
+    "Tank": "Armor",
+    "Weapons": "None",
+    "Ewar Type": "Tracking Disruption"
+  },
+  {
+    "ShipID": 5,
+    "Ship": "Magnate",
+    "Faction": "Amarr",
+    "Hull": "Frigate",
+    "Role": "Exploration",
+    "Tank": "Armor",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 6,
+    "Ship": "Inquisitor",
+    "Faction": "Amarr",
+    "Hull": "Frigate",
+    "Role": "Logistics",
+    "Tank": "Armor",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 7,
+    "Ship": "Executioner",
+    "Faction": "Amarr",
+    "Hull": "Frigate",
+    "Role": "Attack/Tackle",
+    "Tank": "Armor",
+    "Weapons": "Energy",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 8,
+    "Ship": "Coercer",
+    "Faction": "Amarr",
+    "Hull": "Destroyer",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Energy",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 9,
+    "Ship": "Dragoon",
+    "Faction": "Amarr",
+    "Hull": "Destroyer",
+    "Role": "Capacitor Warfare",
+    "Tank": "Armor",
+    "Weapons": "Drones",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 10,
+    "Ship": "Ibis",
+    "Faction": "Caldari",
+    "Hull": "Corvette",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Hybrid",
+    "Ewar Type": "ECM"
+  },
+  {
+    "ShipID": 11,
+    "Ship": "Bantam",
+    "Faction": "Caldari",
+    "Hull": "Frigate",
+    "Role": "Logistics",
+    "Tank": "Shield",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 12,
+    "Ship": "Condor",
+    "Faction": "Caldari",
+    "Hull": "Frigate",
+    "Role": "Attack/Tackle",
+    "Tank": "Shield",
+    "Weapons": "Launchers",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 13,
+    "Ship": "Griffin",
+    "Faction": "Caldari",
+    "Hull": "Frigate",
+    "Role": "Electronic Warfare",
+    "Tank": "Shield",
+    "Weapons": "None",
+    "Ewar Type": "ECM"
+  },
+  {
+    "ShipID": 14,
+    "Ship": "Heron",
+    "Faction": "Caldari",
+    "Hull": "Frigate",
+    "Role": "Exploration",
+    "Tank": "Shield",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 15,
+    "Ship": "Kestrel",
+    "Faction": "Caldari",
+    "Hull": "Frigate",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Launchers",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 16,
+    "Ship": "Merlin",
+    "Faction": "Caldari",
+    "Hull": "Frigate",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Hybrid",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 17,
+    "Ship": "Corax",
+    "Faction": "Caldari",
+    "Hull": "Destroyer",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Launchers",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 18,
+    "Ship": "Cormorant",
+    "Faction": "Caldari",
+    "Hull": "Destroyer",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Hybrid",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 19,
+    "Ship": "Velator",
+    "Faction": "Gallente",
+    "Hull": "Corvette",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Hybrid",
+    "Ewar Type": "Sensor Dampening"
+  },
+  {
+    "ShipID": 20,
+    "Ship": "Atron",
+    "Faction": "Gallente",
+    "Hull": "Frigate",
+    "Role": "Attack/Tackle",
+    "Tank": "Armor",
+    "Weapons": "Hybrid",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 21,
+    "Ship": "Imicus",
+    "Faction": "Gallente",
+    "Hull": "Frigate",
+    "Role": "Exploration",
+    "Tank": "Armor",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 22,
+    "Ship": "Incursus",
+    "Faction": "Gallente",
+    "Hull": "Frigate",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Hybrid",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 23,
+    "Ship": "Maulus",
+    "Faction": "Gallente",
+    "Hull": "Frigate",
+    "Role": "Electronic Warfare",
+    "Tank": "Armor",
+    "Weapons": "None",
+    "Ewar Type": "Sensor Dampening"
+  },
+  {
+    "ShipID": 24,
+    "Ship": "Navitas",
+    "Faction": "Gallente",
+    "Hull": "Frigate",
+    "Role": "Logistics",
+    "Tank": "Armor",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 25,
+    "Ship": "Tristan",
+    "Faction": "Gallente",
+    "Hull": "Frigate",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Drones",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 26,
+    "Ship": "Algos",
+    "Faction": "Gallente",
+    "Hull": "Destroyer",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Drones",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 27,
+    "Ship": "Catalyst",
+    "Faction": "Gallente",
+    "Hull": "Destroyer",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Hybrid",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 28,
+    "Ship": "Reaper",
+    "Faction": "Minmatar",
+    "Hull": "Corvette",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Projectile",
+    "Ewar Type": "Target Painter"
+  },
+  {
+    "ShipID": 29,
+    "Ship": "Burst",
+    "Faction": "Minmatar",
+    "Hull": "Frigate",
+    "Role": "Logistics",
+    "Tank": "Shield",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 30,
+    "Ship": "Slasher",
+    "Faction": "Minmatar",
+    "Hull": "Frigate",
+    "Role": "Attack/Tackle",
+    "Tank": "Shield",
+    "Weapons": "Projectile",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 31,
+    "Ship": "Vigil",
+    "Faction": "Minmatar",
+    "Hull": "Frigate",
+    "Role": "Electronic Warfare",
+    "Tank": "Shield",
+    "Weapons": "None",
+    "Ewar Type": "Target Painter"
+  },
+  {
+    "ShipID": 32,
+    "Ship": "Probe",
+    "Faction": "Minmatar",
+    "Hull": "Frigate",
+    "Role": "Exploration",
+    "Tank": "Shield",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 33,
+    "Ship": "Breacher",
+    "Faction": "Minmatar",
+    "Hull": "Frigate",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Launchers",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 34,
+    "Ship": "Rifter",
+    "Faction": "Minmatar",
+    "Hull": "Frigate",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Projectile",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 35,
+    "Ship": "Thrasher",
+    "Faction": "Minmatar",
+    "Hull": "Destroyer",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Projectile",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 36,
+    "Ship": "Talwar",
+    "Faction": "Minmatar",
+    "Hull": "Destroyer",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Launchers",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 37,
+    "Ship": "Maller",
+    "Faction": "Amarr",
+    "Hull": "Cruiser",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Energy",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 38,
+    "Ship": "Omen",
+    "Faction": "Amarr",
+    "Hull": "Cruiser",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Energy",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 39,
+    "Ship": "Arbitrator",
+    "Faction": "Amarr",
+    "Hull": "Cruiser",
+    "Role": "Electronic Warfare",
+    "Tank": "Armor",
+    "Weapons": "Drones",
+    "Ewar Type": "Tracking Disruption"
+  },
+  {
+    "ShipID": 40,
+    "Ship": "Augoror",
+    "Faction": "Amarr",
+    "Hull": "Cruiser",
+    "Role": "Logistics",
+    "Tank": "Armor",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 41,
+    "Ship": "Moa",
+    "Faction": "Caldari",
+    "Hull": "Cruiser",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Hybrid",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 42,
+    "Ship": "Caracal",
+    "Faction": "Caldari",
+    "Hull": "Cruiser",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Launchers",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 43,
+    "Ship": "Blackbird",
+    "Faction": "Caldari",
+    "Hull": "Cruiser",
+    "Role": "Electronic Warfare",
+    "Tank": "Shield",
+    "Weapons": "None",
+    "Ewar Type": "ECM"
+  },
+  {
+    "ShipID": 44,
+    "Ship": "Osprey",
+    "Faction": "Caldari",
+    "Hull": "Cruiser",
+    "Role": "Logistics",
+    "Tank": "Shield",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 45,
+    "Ship": "Vexor",
+    "Faction": "Gallente",
+    "Hull": "Cruiser",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Drones",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 46,
+    "Ship": "Thorax",
+    "Faction": "Gallente",
+    "Hull": "Cruiser",
+    "Role": "Combat",
+    "Tank": "Armor",
+    "Weapons": "Hybrid",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 47,
+    "Ship": "Celestis",
+    "Faction": "Gallente",
+    "Hull": "Cruiser",
+    "Role": "Electronic Warfare",
+    "Tank": "Armor",
+    "Weapons": "None",
+    "Ewar Type": "Sensor Dampening"
+  },
+  {
+    "ShipID": 48,
+    "Ship": "Exequror",
+    "Faction": "Gallente",
+    "Hull": "Cruiser",
+    "Role": "Logistics",
+    "Tank": "Armor",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 49,
+    "Ship": "Rupture",
+    "Faction": "Minmatar",
+    "Hull": "Cruiser",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Projectile",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 50,
+    "Ship": "Stabber",
+    "Faction": "Minmatar",
+    "Hull": "Cruiser",
+    "Role": "Combat",
+    "Tank": "Shield",
+    "Weapons": "Projectile",
+    "Ewar Type": "None"
+  },
+  {
+    "ShipID": 51,
+    "Ship": "Bellicose",
+    "Faction": "Minmatar",
+    "Hull": "Cruiser",
+    "Role": "Electronic Warfare",
+    "Tank": "Shield",
+    "Weapons": "Launchers",
+    "Ewar Type": "Target Painter"
+  },
+  {
+    "ShipID": 52,
+    "Ship": "Scythe",
+    "Faction": "Minmatar",
+    "Hull": "Cruiser",
+    "Role": "Logistics",
+    "Tank": "Shield",
+    "Weapons": "None",
+    "Ewar Type": "None"
+  }
+]
